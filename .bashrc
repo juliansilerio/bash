@@ -1,3 +1,5 @@
+cd /vagrant/
+
 alias ls='ls -A --group-directories-first --color'
 alias ll='ls -laF --group-directories-first --color'
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
