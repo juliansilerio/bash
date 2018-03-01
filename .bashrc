@@ -1,7 +1,3 @@
-eval `ssh-agent -s`
-ssh-add ~/.ssh/my_w4705_key
-export DISPLAY=zeus:0.0
-
 # Git branch in prompt.
 parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
